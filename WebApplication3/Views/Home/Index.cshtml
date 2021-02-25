@@ -1,0 +1,230 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+
+<section class="header">
+    <div class="container">
+        <img src="@Url.Content("/Content/img/logo.png")">
+   
+        <a href="/Auth/Index" class="login-btn">Login</a>
+
+    </div>
+    <h1>Travel Acros The Global</h1>
+    <p>Travel easily and safely</p>
+    <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search Country or City">
+        <div class="input-group-append">
+            <button type="submit" class="input-group-text btn">Search</button>
+        </div>
+    </div>
+</section>
+<section class="features">
+    <h1>Feature Destinations</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="feature-box">
+                    <div class="feature-img">
+                        <img src="/Content/img/spain.jpg">
+                        <div class="price">
+                            <p>120$</p>
+                        </div>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                    </div>
+                    <div class="feature-details">
+                        <h4>Spain, Seville</h4>
+                        <p>Spain is a colorful country, home to some of the most visited tourist destinations in the world. The unique cultural and historical heritage of Spain has preserved, for us, numerous monuments, attractions and impressive places. Spain is blessed with picturesque coastlines on both sides of the North Atlantic Ocean</p>
+                        <div>
+                            <span><i class="fa fa-map-marker"></i>Seville</span>
+                            <span><i class="fa fa-sun-o"></i>4 Days</span>
+                            <span><i class="fa fa-moon-o"></i>3 Nights</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-box">
+                    <div class="feature-img">
+                        <img src="/Content/img/salonic.jpg">
+                        <div class="price">
+                            <p>110$</p>
+                        </div>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                        </div>
+                    </div>
+                    <div class="feature-details">
+                        <h4>Greece, Salonic</h4>
+                        <p>
+                            A country with a culture and a history that has influenced the development of all mankind, Greece is, without a doubt, a destination that must be ticked at least once in a lifetime.However, if you analyze how much she offers you, you can discover that a single stay is not enough to enjoy everything she has to offer.
+                        </p>
+                        <div>
+                            <span><i class="fa fa-map-marker"></i>Salonic</span>
+                            <span><i class="fa fa-sun-o"></i>4 Days</span>
+                            <span><i class="fa fa-moon-o"></i>3 Nights</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-box">
+                    <div class="feature-img">
+                        <img src="/Content/img/brasov.jpg">
+                        <div class="price">
+                            <p>50$</p>
+                        </div>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                    </div>
+                    <div class="feature-details">
+                        <h4>Romania, Brasov</h4>
+                        <p>
+                            Welcome to Romania Tourism! Authentic, Natural and Cultural
+                            are the words that best capture the essence of Romania,
+                            a dynamic country rich in history, arts and scenic beauty.
+                            This website is intended to assist travelers who are planning to visit Romania.Recognized for its wide, tree-lined boulevards, beautiful buildings.
+                        </p>
+                        <div>
+                            <span><i class="fa fa-map-marker"></i>Brasov</span>
+                            <span><i class="fa fa-sun-o"></i>4 Days</span>
+                            <span><i class="fa fa-moon-o"></i>3 Nights</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="gallery">
+    <h1>Travelling Gallery</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="gallery-box">
+                    <img src="/Content/img/madeira.jpg">
+                    <h4>Madeira</h4>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="gallery-box">
+                    <img src="/Content/img/roma.jpg">
+                    <h4>Roma</h4>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="gallery-box">
+                    <img src="/Content/img/zadar.jpg">
+                    <h4>Zadar</h4>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="gallery-box">
+                    <img src="/Content/img/paris.jpg">
+                    <h4>Paris</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="banner">
+    <div class="banner-highlights">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h2>Get 30% on top destination</h2>
+                    <p>Book your tickets before 31st march and avail 30% flat discount.</p>
+                </div>
+                <div class="col-md-4">
+                    <button type="button" class="booking-btn">Book Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="user-feedback">
+    <h1>Users Review</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="user-review">
+                    <p>Thank you to the managers of the Infinity Travel tour company for organizing an unforgettable vacation in Seville. It was very interesting and the hotel was very cool. I will not forget this trip for a long time!</p>
+                    <h5>Pravel Sharma</h5>
+                    <small>Ajman</small>
+                </div>
+                <img src="/Content/img/person1.jpg">
+            </div>
+            <div class="col-md-4">
+                <div class="user-review">
+                    <p>The best company I've bought a tour through. I went to Turkey. The hotel was selected inexpensive but decent. I like it!</p>
+                    <h5>John</h5>
+                    <small>Chișinău</small>
+                </div>
+                <img src="/Content/img/profil3.jpg">
+
+            </div>
+            <div class="col-md-4">
+                <div class="user-review">
+                    <p>Отличная компания. Отдыхали большой компанией в Греции, остались довольны. Будем и дальше обращаться к вам.</p>
+                    <h5>Olga Shuvalova</h5>
+                    <small>Odesa</small>
+                </div>
+                <img src="/Content/img/profil8.jpg">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <img src="/Content/img/logo.png" class="footer-logo">
+                <p>The prices indicated on the site are current on the day of publication and may change depending on the date of departure and the composition of the tourist package. Departure / arrival times are indicated approximately and may change depending on customs / traffic / weather conditions, etc. change the tour schedule without prior notice.!</p>
+
+                <i class="fa fa-cc-visa"></i>
+            </div>
+            <div class="col-md-3">
+                <h4>Features</h4>
+                <p><i class="fa fa-briefcase"> Deals & Offers</i></p>
+                <p><i class="fa fa-thumbs-o-up"> Costumer Reviews</i></p>
+                <p><i class="fa fa-file"> Concelatio Policy</i></p>
+
+            </div>
+            <div class="col-md-3">
+                <h4>Quick Contact</h4>
+                <p><i class="fa fa-phone-square"> +37326255744</i></p>
+                <p><i class="fa fa-envelope"> ionpinzari12@gmail.com</i></p>
+                <p><i class="fa fa-home"> str. Studentilor 1</i></p>
+
+            </div>
+            <div class="col-md-3">
+                <h4>Follow us on</h4>
+                <p><i class="fa fa-facebook-official"> Facebook</i></p>
+                <p><i class="fa fa-youtube-play"> YouTube</i></p>
+                <p><i class="fa fa-twitter"> Twitter</i></p>
+            </div>
+        </div><hr>
+
+
+    </div>
+
+</section>
+
+
+
+
